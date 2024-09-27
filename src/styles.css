@@ -1,0 +1,70 @@
+body {
+  background-color: #000;
+}
+.inpt-frm-entry, .crt-nw-todo {
+  background-color: #000;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  height: 30px;
+  width: 200px;
+  margin: 8px;
+  color: #fff;
+}
+.inpt-frm-entry::placeholder {
+  color: #fff;
+  margin-left: 4px;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-login-hdr, .add-todo-hdng, .crt-todo-hdng, .todo-list, .error-login-form, .tsk-item {
+  color: #fff;
+  text-align: center;
+}
+.lgn-lgout-user {
+  width: max-content;
+  height: 20px;
+  background-color: #fff;
+  margin-top: 8px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-todo-cntr {
+  margin: auto;
+  width: 50%;
+  border: 2px solid #a4bdeb;
+  padding: 16px 16px 32px 16px;
+}
+.list-item {
+  border: 1px solid #85a3db;
+  padding: 12px;
+  margin: 8px;
+}
+.todo-edit-btn {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.pt-4 {
+  padding-top: 32px;
+}
+.m-3 {
+  margin: 16px;
+}
+.ml-3 {
+  margin-left: 16px;
+}
+.mt-3 {
+  margin-top: 16px;
+}
+button {
+  font-size: 14px;
+  font-family: monospace;
+  color: #1f30bf;
+  background: black;
+  border: 2px solid #1f30bf;
+  padding: 5px;
+}
